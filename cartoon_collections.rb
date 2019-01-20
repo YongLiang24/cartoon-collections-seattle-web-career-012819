@@ -15,8 +15,11 @@ x.capitalize + "!"
   end
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(str)# code an argument here
   # Your code here
+  str.any? do |x|
+    x.length>4
+  end
 end
 
 def find_the_cheese# code an argument here
