@@ -1,10 +1,11 @@
 def roll_call_dwarves# code an argument here
   # Your code here
 index =1
-str.each do |x|
+str.collect do |x|
 puts "#{index}. #{x}"
 index+=1
 end
+
 end
 
 def summon_captain_planet# code an argument here
